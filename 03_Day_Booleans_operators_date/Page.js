@@ -6,6 +6,7 @@ const page = {
     content: 'This is my page content',
 }
 
+
 console.log(page)
 
 
