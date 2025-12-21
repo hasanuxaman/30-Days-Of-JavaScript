@@ -8,6 +8,7 @@ console.log(isRaining) // -> false  means no value  means false
 let empty = null
 console.log(empty) // -> null , means no value
 let isMarried;
+
 console.log(isMarried) // -> undefined , means no value
 let isMarried2   = undefined
 console.log(isMarried2) // -> undefined , means no value
