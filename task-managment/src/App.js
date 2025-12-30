@@ -4,6 +4,7 @@ import Hello, { HelloClass } from './component/FunctionComponent';
 import Counter from './component/StateDynamicdata';
 import EventHandling from './component/EventHandling';
 import FormHandling from './component/FormHandling';
+import SubmitForm from './component/SubmitForm';
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
           <Counter />
           <EventHandling/>
           <FormHandling/>
+          < SubmitForm/>
         </>
       );
 }
