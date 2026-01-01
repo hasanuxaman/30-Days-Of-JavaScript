@@ -9,6 +9,7 @@ import SubmitForm from './component/SubmitForm';
 import AdvancedForm from './component/BasicControlledForm';
 import HookForm from './component/ReactHookForm';
 import FileUploadForm from './component/FileUpload';
+import MultiStepForm from './component/Multi-StepForm';
 
 function App() {
     return (
@@ -22,6 +23,7 @@ function App() {
           <AdvancedForm/>
           <HookForm/>
           <FileUploadForm/>
+          < MultiStepForm/>
         </>
       );
 }
