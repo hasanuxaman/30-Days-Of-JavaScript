@@ -7,6 +7,7 @@ import './App.css';
 // import SubmitForm from './component/SubmitForm';
 
 import AdvancedForm from './component/BasicControlledForm';
+import HookForm from './component/ReactHookForm';
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
           <FormHandling/>
           < SubmitForm/> */}
           <AdvancedForm/>
+          <HookForm/>
         </>
       );
 }
